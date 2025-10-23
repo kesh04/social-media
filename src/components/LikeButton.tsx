@@ -59,7 +59,7 @@ const fetchVotes = async (postId: number): Promise<Vote[]> => {
 export const LikeButton = ({ postId }: Props) => {
   const { user } = useAuth();
 
-  const queryClient = useQueryClient();
+ 
 
   const {
     data: votes,
